@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c6bkh8ysk173a"
+path="res://.godot/imported/building_B_withoutBase.obj-4c760f148ccb18ed97175c72d5b32c83.mesh"
+
+[deps]
+
+files=["res://.godot/imported/building_B_withoutBase.obj-4c760f148ccb18ed97175c72d5b32c83.mesh"]
+
+source_file="res://Assets/Kota/Assets/obj/building_B_withoutBase.obj"
+dest_files=["res://.godot/imported/building_B_withoutBase.obj-4c760f148ccb18ed97175c72d5b32c83.mesh", "res://.godot/imported/building_B_withoutBase.obj-4c760f148ccb18ed97175c72d5b32c83.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

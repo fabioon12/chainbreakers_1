@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ddtededldm7ia"
+path="res://.godot/imported/wall_half.obj-c32f9f5c39c9ea8c4646ea2e69c6c46c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall_half.obj-c32f9f5c39c9ea8c4646ea2e69c6c46c.mesh"]
+
+source_file="res://Assets/tambahan/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/wall_half.obj"
+dest_files=["res://.godot/imported/wall_half.obj-c32f9f5c39c9ea8c4646ea2e69c6c46c.mesh", "res://.godot/imported/wall_half.obj-c32f9f5c39c9ea8c4646ea2e69c6c46c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

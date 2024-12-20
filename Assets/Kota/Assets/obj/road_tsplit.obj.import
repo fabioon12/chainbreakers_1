@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cb3v45txld3d0"
+path="res://.godot/imported/road_tsplit.obj-56fa599e4cd1e1077f568530b0e2da8c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/road_tsplit.obj-56fa599e4cd1e1077f568530b0e2da8c.mesh"]
+
+source_file="res://Assets/Kota/Assets/obj/road_tsplit.obj"
+dest_files=["res://.godot/imported/road_tsplit.obj-56fa599e4cd1e1077f568530b0e2da8c.mesh", "res://.godot/imported/road_tsplit.obj-56fa599e4cd1e1077f568530b0e2da8c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

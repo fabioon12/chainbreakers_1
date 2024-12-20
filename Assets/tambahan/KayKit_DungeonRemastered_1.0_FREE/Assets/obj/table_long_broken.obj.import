@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ragrertdp13e"
+path="res://.godot/imported/table_long_broken.obj-91a819efc4b1a56180c002615f4b5dc9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/table_long_broken.obj-91a819efc4b1a56180c002615f4b5dc9.mesh"]
+
+source_file="res://Assets/tambahan/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/table_long_broken.obj"
+dest_files=["res://.godot/imported/table_long_broken.obj-91a819efc4b1a56180c002615f4b5dc9.mesh", "res://.godot/imported/table_long_broken.obj-91a819efc4b1a56180c002615f4b5dc9.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

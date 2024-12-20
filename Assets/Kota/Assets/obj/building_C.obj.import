@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ctll7dduluepg"
+path="res://.godot/imported/building_C.obj-f40ff1fcb49f4d23b7f4f3c9da1763ba.mesh"
+
+[deps]
+
+files=["res://.godot/imported/building_C.obj-f40ff1fcb49f4d23b7f4f3c9da1763ba.mesh"]
+
+source_file="res://Assets/Kota/Assets/obj/building_C.obj"
+dest_files=["res://.godot/imported/building_C.obj-f40ff1fcb49f4d23b7f4f3c9da1763ba.mesh", "res://.godot/imported/building_C.obj-f40ff1fcb49f4d23b7f4f3c9da1763ba.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://wqaxfsujhk78"
+path="res://.godot/imported/rubble_large.obj-997c57ffff3b9035377b9d3ed88a67df.mesh"
+
+[deps]
+
+files=["res://.godot/imported/rubble_large.obj-997c57ffff3b9035377b9d3ed88a67df.mesh"]
+
+source_file="res://Assets/tambahan/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/rubble_large.obj"
+dest_files=["res://.godot/imported/rubble_large.obj-997c57ffff3b9035377b9d3ed88a67df.mesh", "res://.godot/imported/rubble_large.obj-997c57ffff3b9035377b9d3ed88a67df.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

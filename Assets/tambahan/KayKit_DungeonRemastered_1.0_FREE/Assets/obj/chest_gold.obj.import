@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://caohya5tk28da"
+path="res://.godot/imported/chest_gold.obj-5e43506fce16ab6664e1e8393651207a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/chest_gold.obj-5e43506fce16ab6664e1e8393651207a.mesh"]
+
+source_file="res://Assets/tambahan/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/chest_gold.obj"
+dest_files=["res://.godot/imported/chest_gold.obj-5e43506fce16ab6664e1e8393651207a.mesh", "res://.godot/imported/chest_gold.obj-5e43506fce16ab6664e1e8393651207a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

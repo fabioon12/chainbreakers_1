@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://66g5kbdbn3t2"
+path="res://.godot/imported/plate_small.obj-b6a58beb92f514f82ec31e3b1e9215bf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/plate_small.obj-b6a58beb92f514f82ec31e3b1e9215bf.mesh"]
+
+source_file="res://Assets/tambahan/KayKit_DungeonRemastered_1.0_FREE/Assets/obj/plate_small.obj"
+dest_files=["res://.godot/imported/plate_small.obj-b6a58beb92f514f82ec31e3b1e9215bf.mesh", "res://.godot/imported/plate_small.obj-b6a58beb92f514f82ec31e3b1e9215bf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
