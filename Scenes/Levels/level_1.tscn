@@ -1,10 +1,9 @@
-[gd_scene load_steps=9 format=3 uid="uid://b3ihces2p0nm"]
+[gd_scene load_steps=8 format=3 uid="uid://b3ihces2p0nm"]
 
 [ext_resource type="MeshLibrary" uid="uid://dri7nwdk0ya2i" path="res://Scenes/Levels/1.tres" id="1_s8s3q"]
 [ext_resource type="Texture2D" uid="uid://bwby2wo7rj71n" path="res://Assets/rosendal_plains_1_4k.hdr" id="2_dopii"]
 [ext_resource type="PackedScene" uid="uid://ctutx2jdy7li0" path="res://Scenes/Levels/player.tscn" id="3_gtqrd"]
-[ext_resource type="PackedScene" uid="uid://dmr0fcamx7t56" path="res://addons/virtual_joystick/virtual_joystick_scene.tscn" id="4_4mh6l"]
-[ext_resource type="PackedScene" uid="uid://db51qjtk0edxq" path="res://Scenes/Monsters/Ai Melee/skeleton_warior_monster.tscn" id="5_qqnf2"]
+[ext_resource type="PackedScene" uid="uid://db51qjtk0edxq" path="res://Scenes/Monsters/skeleton_warior_monster.tscn" id="5_qqnf2"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_c513i"]
 panorama = ExtResource("2_dopii")
@@ -33,8 +32,6 @@ transform = Transform3D(1, 0, 0, 0, -0.862487, 0.506079, 0, -0.506079, -0.862487
 
 [node name="Player" parent="." instance=ExtResource("3_gtqrd")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.9343, 1.07, 4.86371)
-
-[node name="Virtual Joystick" parent="." instance=ExtResource("4_4mh6l")]
 
 [node name="skeleton_warior_monster" parent="." node_paths=PackedStringArray("player") instance=ExtResource("5_qqnf2")]
 transform = Transform3D(-0.995677, 0, 8.70448e-08, 0, 0.995677, 0, -8.70448e-08, 0, -0.995677, 11.8577, 1.07, 5.4788)
