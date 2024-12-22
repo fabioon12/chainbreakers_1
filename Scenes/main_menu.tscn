@@ -1,0 +1,108 @@
+[gd_scene load_steps=9 format=3 uid="uid://dfxer10opskrl"]
+
+[ext_resource type="Script" path="res://Script/main_menu.gd" id="1_cse1v"]
+[ext_resource type="Texture2D" uid="uid://b2kfwubqw5bgc" path="res://Assets/godot.png" id="1_h4owc"]
+[ext_resource type="FontFile" uid="uid://834wyuhjg3bq" path="res://Assets/Font/Halo Dek.ttf" id="2_mmlw4"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jr5vx"]
+texture = ExtResource("1_h4owc")
+modulate_color = Color(0.450648, 0.450648, 0.450648, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dp1v0"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4uyd5"]
+bg_color = Color(0.209147, 0.438633, 0.239831, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_awrji"]
+bg_color = Color(0.124892, 0.281769, 0.145913, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qh3wd"]
+bg_color = Color(0.32549, 0.65098, 0.368627, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_cse1v")
+
+[node name="BG" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_jr5vx")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -142.5
+offset_top = -24.0
+offset_right = 142.5
+offset_bottom = 156.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="Mainkan" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_mmlw4")
+theme_override_font_sizes/font_size = 33
+theme_override_styles/focus = SubResource("StyleBoxEmpty_dp1v0")
+theme_override_styles/hover = SubResource("StyleBoxFlat_4uyd5")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_awrji")
+theme_override_styles/normal = SubResource("StyleBoxFlat_qh3wd")
+text = "Mainkan"
+
+[node name="Keluar" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_mmlw4")
+theme_override_font_sizes/font_size = 33
+theme_override_styles/focus = SubResource("StyleBoxEmpty_dp1v0")
+theme_override_styles/hover = SubResource("StyleBoxFlat_4uyd5")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_awrji")
+theme_override_styles/normal = SubResource("StyleBoxFlat_qh3wd")
+text = "Keluar"
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -327.5
+offset_top = 98.0
+offset_right = 327.5
+offset_bottom = 236.0
+grow_horizontal = 2
+theme_override_fonts/font = ExtResource("2_mmlw4")
+theme_override_font_sizes/font_size = 100
+text = "Chainbreaker"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="VBoxContainer/Mainkan" to="." method="_on_mainkan_pressed"]
+[connection signal="pressed" from="VBoxContainer/Keluar" to="." method="_on_keluar_pressed"]
