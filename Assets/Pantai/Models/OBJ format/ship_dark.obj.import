@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://djroxatfh2ju3"
+path="res://.godot/imported/ship_dark.obj-e07339c0ffecfc85b7e66d226731f4bb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/ship_dark.obj-e07339c0ffecfc85b7e66d226731f4bb.mesh"]
+
+source_file="res://Assets/Pantai/Models/OBJ format/ship_dark.obj"
+dest_files=["res://.godot/imported/ship_dark.obj-e07339c0ffecfc85b7e66d226731f4bb.mesh", "res://.godot/imported/ship_dark.obj-e07339c0ffecfc85b7e66d226731f4bb.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

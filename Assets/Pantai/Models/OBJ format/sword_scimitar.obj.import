@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ym0tynbg6bs5"
+path="res://.godot/imported/sword_scimitar.obj-edbf8f92b9abbbb1d729d65d527d0372.mesh"
+
+[deps]
+
+files=["res://.godot/imported/sword_scimitar.obj-edbf8f92b9abbbb1d729d65d527d0372.mesh"]
+
+source_file="res://Assets/Pantai/Models/OBJ format/sword_scimitar.obj"
+dest_files=["res://.godot/imported/sword_scimitar.obj-edbf8f92b9abbbb1d729d65d527d0372.mesh", "res://.godot/imported/sword_scimitar.obj-edbf8f92b9abbbb1d729d65d527d0372.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://pdo0c6casxaf"
+path="res://.godot/imported/pirate_officer.obj-184b5336fb93fecf925b3efab7a91fd8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pirate_officer.obj-184b5336fb93fecf925b3efab7a91fd8.mesh"]
+
+source_file="res://Assets/Pantai/Models/OBJ format/pirate_officer.obj"
+dest_files=["res://.godot/imported/pirate_officer.obj-184b5336fb93fecf925b3efab7a91fd8.mesh", "res://.godot/imported/pirate_officer.obj-184b5336fb93fecf925b3efab7a91fd8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

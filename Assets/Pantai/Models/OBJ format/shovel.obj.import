@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://l0ouhl4520dr"
+path="res://.godot/imported/shovel.obj-a10634c365dbca9ba65e24d2f0c0b887.mesh"
+
+[deps]
+
+files=["res://.godot/imported/shovel.obj-a10634c365dbca9ba65e24d2f0c0b887.mesh"]
+
+source_file="res://Assets/Pantai/Models/OBJ format/shovel.obj"
+dest_files=["res://.godot/imported/shovel.obj-a10634c365dbca9ba65e24d2f0c0b887.mesh", "res://.godot/imported/shovel.obj-a10634c365dbca9ba65e24d2f0c0b887.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

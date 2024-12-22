@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://btaaibqhell7x"
+path="res://.godot/imported/palm_detailed_long.obj-e74cbf7b328ce70ed221ed229c74dac9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/palm_detailed_long.obj-e74cbf7b328ce70ed221ed229c74dac9.mesh"]
+
+source_file="res://Assets/Pantai/Models/OBJ format/palm_detailed_long.obj"
+dest_files=["res://.godot/imported/palm_detailed_long.obj-e74cbf7b328ce70ed221ed229c74dac9.mesh", "res://.godot/imported/palm_detailed_long.obj-e74cbf7b328ce70ed221ed229c74dac9.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

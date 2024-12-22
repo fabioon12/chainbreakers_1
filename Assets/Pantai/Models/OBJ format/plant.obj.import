@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://f761ljr4mdkd"
+path="res://.godot/imported/plant.obj-f07b2c483a28804273f282a204884875.mesh"
+
+[deps]
+
+files=["res://.godot/imported/plant.obj-f07b2c483a28804273f282a204884875.mesh"]
+
+source_file="res://Assets/Pantai/Models/OBJ format/plant.obj"
+dest_files=["res://.godot/imported/plant.obj-f07b2c483a28804273f282a204884875.mesh", "res://.godot/imported/plant.obj-f07b2c483a28804273f282a204884875.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

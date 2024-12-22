@@ -1,4 +1,4 @@
-[gd_scene load_steps=73 format=4 uid="uid://7assvffrq5dv"]
+[gd_scene load_steps=73 format=4 uid="uid://0pmt7p878ugc"]
 
 [ext_resource type="Texture2D" uid="uid://b2ji7u3wrhrrh" path="res://Assets/Kota/Assets/gltf/citybits_texture.png" id="1_bfj1e"]
 
@@ -819,7 +819,6 @@ skeleton = NodePath("")
 [node name="StaticBody3D" type="StaticBody3D" parent="road_corner_curved"]
 
 [node name="CollisionShape3D10" type="CollisionShape3D" parent="road_corner_curved/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 shape = SubResource("ConcavePolygonShape3D_b7sql")
 
 [node name="road_straight" type="MeshInstance3D" parent="."]

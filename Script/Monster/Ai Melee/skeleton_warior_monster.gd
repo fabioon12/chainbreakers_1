@@ -7,9 +7,12 @@ var Screaming: bool  = false
 var direction : Vector3
 var Awakening : bool = false
 var Attacking : bool = false
+var damage:int = 2
 var health : int = 4
-var dying: bool = false
-var just_hit: bool = false
+var dying : bool = false
+var just_hit : bool = false
+
+
 
 func _ready() -> void:
 	state_controller.change_state("Idle")
@@ -46,4 +49,22 @@ func _on_animation_tree_animation_finished(anim_name: StringName) -> void:
 
 func death():
 	self.queue_free()
-			
+
+func hit(damage: int):
+	if !just_hit:
+		get_node("just_hit").start()
+		just_hit = true
+		health -= damage
+		if health <= 0:
+			state_controller.change_state("Death")
+		#Knockback
+		var tween = get_tree().create_tween()
+		tween.tween_property(self, "global_position", global_position - (direction/1.5), 0.2)
+
+func _on_damage_detector_body_entered(body: Node3D) -> void:
+		if body.is_in_group("player"):
+			body.hit(damage) 
+
+func _on_just_hit_timeout() -> void:
+	just_hit = false
+	

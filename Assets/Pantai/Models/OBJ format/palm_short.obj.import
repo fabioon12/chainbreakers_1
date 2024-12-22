@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bmomm6a8qqmah"
+path="res://.godot/imported/palm_short.obj-f235cb3f342cc4ce8d7a1f86c0ac86bd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/palm_short.obj-f235cb3f342cc4ce8d7a1f86c0ac86bd.mesh"]
+
+source_file="res://Assets/Pantai/Models/OBJ format/palm_short.obj"
+dest_files=["res://.godot/imported/palm_short.obj-f235cb3f342cc4ce8d7a1f86c0ac86bd.mesh", "res://.godot/imported/palm_short.obj-f235cb3f342cc4ce8d7a1f86c0ac86bd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

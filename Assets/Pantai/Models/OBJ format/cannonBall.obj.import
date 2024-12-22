@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cvypg5hpri1g0"
+path="res://.godot/imported/cannonBall.obj-709548ba5744c4cf527e0fb35302f4ad.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cannonBall.obj-709548ba5744c4cf527e0fb35302f4ad.mesh"]
+
+source_file="res://Assets/Pantai/Models/OBJ format/cannonBall.obj"
+dest_files=["res://.godot/imported/cannonBall.obj-709548ba5744c4cf527e0fb35302f4ad.mesh", "res://.godot/imported/cannonBall.obj-709548ba5744c4cf527e0fb35302f4ad.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

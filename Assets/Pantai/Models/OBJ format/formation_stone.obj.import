@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dfe78nv2u3sbs"
+path="res://.godot/imported/formation_stone.obj-ef5d9689ad8c61acb6bd5672a92f573d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/formation_stone.obj-ef5d9689ad8c61acb6bd5672a92f573d.mesh"]
+
+source_file="res://Assets/Pantai/Models/OBJ format/formation_stone.obj"
+dest_files=["res://.godot/imported/formation_stone.obj-ef5d9689ad8c61acb6bd5672a92f573d.mesh", "res://.godot/imported/formation_stone.obj-ef5d9689ad8c61acb6bd5672a92f573d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

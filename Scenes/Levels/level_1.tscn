@@ -31,7 +31,7 @@ environment = SubResource("Environment_v2p3s")
 transform = Transform3D(1, 0, 0, 0, -0.862487, 0.506079, 0, -0.506079, -0.862487, 6.18346, 5.16198, 4.85054)
 
 [node name="Player" parent="." instance=ExtResource("3_gtqrd")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.9343, 1.07, 4.86371)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.7394, 1.13742, 4.85376)
 
 [node name="skeleton_warior_monster" parent="." node_paths=PackedStringArray("player") instance=ExtResource("5_qqnf2")]
 transform = Transform3D(-0.995677, 0, 8.70448e-08, 0, 0.995677, 0, -8.70448e-08, 0, -0.995677, 11.8577, 1.07, 5.4788)

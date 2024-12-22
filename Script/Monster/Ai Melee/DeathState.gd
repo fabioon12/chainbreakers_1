@@ -5,7 +5,7 @@ var AIController
 
 func _ready() -> void:
 	AIController = get_parent().get_parent()
-	AIController.get_node("AnimationTree").get("parameters/playback").travel("Attack")
+	AIController.get_node("AnimationTree").get("parameters/playback").travel("Death")
 	AIController.dying = true
 	
 func _physics_process(delta: float) -> void:
