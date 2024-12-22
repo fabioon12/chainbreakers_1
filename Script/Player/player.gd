@@ -122,7 +122,8 @@ func hit(damage: int):
 
 func _on_animation_tree_animation_finished(anim_name: StringName) -> void:
 	if  "Death" in anim_name:
-		self.queue_free()
+		await get_tree().create_timer(1).timeout
+		get_node("../gameover_overlay").game_over()
 
 func _on_just_hit_timeout() -> void:
 		just_hit = false 

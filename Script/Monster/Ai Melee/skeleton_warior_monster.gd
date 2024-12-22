@@ -2,7 +2,7 @@ extends CharacterBody3D
 
 var speed: float = 1.0
 @onready var state_controller = get_node("StateMachine")
-@export var player : CharacterBody3D
+@export var player: CharacterBody3D
 var Screaming: bool  = false
 var direction : Vector3
 var Awakening : bool = false

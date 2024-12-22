@@ -1,9 +1,11 @@
-[gd_scene load_steps=8 format=3 uid="uid://b3ihces2p0nm"]
+[gd_scene load_steps=10 format=3 uid="uid://b3ihces2p0nm"]
 
 [ext_resource type="MeshLibrary" uid="uid://dri7nwdk0ya2i" path="res://Scenes/Levels/1.tres" id="1_s8s3q"]
 [ext_resource type="Texture2D" uid="uid://bwby2wo7rj71n" path="res://Assets/rosendal_plains_1_4k.hdr" id="2_dopii"]
 [ext_resource type="PackedScene" uid="uid://ctutx2jdy7li0" path="res://Scenes/Levels/player.tscn" id="3_gtqrd"]
 [ext_resource type="PackedScene" uid="uid://db51qjtk0edxq" path="res://Scenes/Monsters/skeleton_warior_monster.tscn" id="5_qqnf2"]
+[ext_resource type="PackedScene" uid="uid://dvgt37mdnlppu" path="res://Scenes/player/GUI/gameover_overlay.tscn" id="5_r4lsa"]
+[ext_resource type="PackedScene" uid="uid://d1nops0c21c1g" path="res://Scenes/player/GUI.tscn" id="6_0jkam"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_c513i"]
 panorama = ExtResource("2_dopii")
@@ -36,3 +38,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.7394, 1.13742, 4.85376)
 [node name="skeleton_warior_monster" parent="." node_paths=PackedStringArray("player") instance=ExtResource("5_qqnf2")]
 transform = Transform3D(-0.995677, 0, 8.70448e-08, 0, 0.995677, 0, -8.70448e-08, 0, -0.995677, 11.8577, 1.07, 5.4788)
 player = NodePath("../Player")
+
+[node name="gameover_overlay" parent="." instance=ExtResource("5_r4lsa")]
+
+[node name="CanvasLayer" parent="." instance=ExtResource("6_0jkam")]

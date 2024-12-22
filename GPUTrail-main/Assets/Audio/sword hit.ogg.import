@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://q8h7d6m60n11"
+path="res://.godot/imported/sword hit.ogg-72be09a0447261cf6a1fef81399ede0a.oggvorbisstr"
+
+[deps]
+
+source_file="res://GPUTrail-main/Assets/Audio/sword hit.ogg"
+dest_files=["res://.godot/imported/sword hit.ogg-72be09a0447261cf6a1fef81399ede0a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
