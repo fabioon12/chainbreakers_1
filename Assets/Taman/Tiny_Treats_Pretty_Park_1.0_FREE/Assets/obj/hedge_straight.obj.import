@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c67qboxws5kce"
+path="res://.godot/imported/hedge_straight.obj-4405c87253d9ffa99d9c6d58420cdf70.mesh"
+
+[deps]
+
+files=["res://.godot/imported/hedge_straight.obj-4405c87253d9ffa99d9c6d58420cdf70.mesh"]
+
+source_file="res://Assets/Taman/Tiny_Treats_Pretty_Park_1.0_FREE/Assets/obj/hedge_straight.obj"
+dest_files=["res://.godot/imported/hedge_straight.obj-4405c87253d9ffa99d9c6d58420cdf70.mesh", "res://.godot/imported/hedge_straight.obj-4405c87253d9ffa99d9c6d58420cdf70.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

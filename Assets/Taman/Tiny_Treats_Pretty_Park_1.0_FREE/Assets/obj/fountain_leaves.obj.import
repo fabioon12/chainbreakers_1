@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cql8selmgbh7h"
+path="res://.godot/imported/fountain_leaves.obj-de2b911b7f960f804497af73e4337a0d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/fountain_leaves.obj-de2b911b7f960f804497af73e4337a0d.mesh"]
+
+source_file="res://Assets/Taman/Tiny_Treats_Pretty_Park_1.0_FREE/Assets/obj/fountain_leaves.obj"
+dest_files=["res://.godot/imported/fountain_leaves.obj-de2b911b7f960f804497af73e4337a0d.mesh", "res://.godot/imported/fountain_leaves.obj-de2b911b7f960f804497af73e4337a0d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

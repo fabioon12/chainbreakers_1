@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=14 format=4 uid="uid://bau0pkkhsfd46"]
+[gd_resource type="Theme" load_steps=14 format=4 uid="uid://c87wse7bcln8g"]
 
 [ext_resource type="Texture2D" uid="uid://bv1k3d044twqw" path="res://GPUTrail-main/Assets/ui_big_pieces.png" id="2_6ew32"]
 [ext_resource type="FontFile" uid="uid://bhseymqmxk2ax" path="res://GPUTrail-main/Assets/Font/PixeloidSans-nR3g1.ttf" id="2_k1ps1"]
