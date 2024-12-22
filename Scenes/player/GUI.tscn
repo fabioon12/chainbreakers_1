@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://d1nops0c21c1g"]
+[gd_scene load_steps=4 format=3 uid="uid://d1nops0c21c1g"]
 
 [ext_resource type="Theme" uid="uid://bau0pkkhsfd46" path="res://Assets/Default.tres" id="1_05pxn"]
 [ext_resource type="Script" path="res://Script/Player/GUI/gui.gd" id="1_wqre2"]
+[ext_resource type="PackedScene" uid="uid://cxc5rjox5uwt" path="res://Scenes/player/GUI/inventory/inventory.tscn" id="3_4hcwo"]
 
 [node name="GUI" type="CanvasLayer"]
 process_mode = 3
@@ -22,18 +23,14 @@ offset_right = 40.0
 offset_bottom = 40.0
 
 [node name="BG" type="Panel" parent="Container"]
+layout_mode = 0
 offset_left = 120.0
 offset_top = 88.0
 offset_right = 1016.0
 offset_bottom = 608.0
 theme = ExtResource("1_05pxn")
 
-[node name="inventory" type="Control" parent="Container"]
-anchors_preset = 0
-offset_left = 120.0
-offset_top = 88.0
-offset_right = 160.0
-offset_bottom = 128.0
+[node name="inventory" parent="Container" instance=ExtResource("3_4hcwo")]
 
 [node name="profile" type="Control" parent="Container"]
 anchors_preset = 0

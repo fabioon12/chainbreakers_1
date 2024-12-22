@@ -4,3 +4,11 @@
 
 [resource]
 script = ExtResource("1_lr5qt")
+type = 0
+item_name = "Iron Sword"
+item_damage = 0
+item_health = 0
+item_defense = 0
+stackable = false
+count = 0
+descriptionn = ""
