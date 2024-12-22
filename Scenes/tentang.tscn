@@ -1,0 +1,92 @@
+[gd_scene load_steps=11 format=3 uid="uid://bg3thppgqt2wt"]
+
+[ext_resource type="Script" path="res://Script/tentang.gd" id="1_k6ttw"]
+[ext_resource type="Texture2D" uid="uid://d280a6071vyqg" path="res://Assets/bg.png" id="1_x08nj"]
+[ext_resource type="FontFile" uid="uid://834wyuhjg3bq" path="res://Assets/Font/Halo Dek.ttf" id="2_a7xpf"]
+[ext_resource type="Texture2D" uid="uid://d1lda4po308qu" path="res://addons/back.png" id="3_owhvu"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dhkf6"]
+texture = ExtResource("1_x08nj")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4ycbf"]
+texture = ExtResource("3_owhvu")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_d26tk"]
+texture = ExtResource("3_owhvu")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vdg5b"]
+texture = ExtResource("3_owhvu")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_aafc2"]
+texture = ExtResource("3_owhvu")
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_oppf6"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_k6ttw")
+
+[node name="BG" type="Panel" parent="."]
+modulate = Color(0.193154, 0.193154, 0.193154, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_dhkf6")
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -437.5
+offset_top = -276.0
+offset_right = 437.5
+offset_bottom = -138.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_a7xpf")
+theme_override_font_sizes/font_size = 81
+text = "Tentang Game"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextEdit" type="TextEdit" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -474.5
+offset_top = -89.0
+offset_right = 474.5
+offset_bottom = 285.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_a7xpf")
+theme_override_font_sizes/font_size = 25
+text = "Gile lu ndro"
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 49.0
+offset_top = 64.0
+offset_right = 149.0
+offset_bottom = 164.0
+theme_override_styles/focus = SubResource("StyleBoxTexture_4ycbf")
+theme_override_styles/hover = SubResource("StyleBoxTexture_d26tk")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_vdg5b")
+theme_override_styles/normal = SubResource("StyleBoxTexture_aafc2")
+icon = SubResource("CompressedTexture2D_oppf6")
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
